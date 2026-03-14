@@ -1,5 +1,13 @@
 # 🤖 AI Saathi — Elderly AI Adoption App
 
+## 🌐 Live Demo
+
+> **Access the app here → [https://hemu26.github.io/elderly-ai-adoption-app/](https://hemu26.github.io/elderly-ai-adoption-app/)**
+
+The app is automatically deployed to **GitHub Pages** on every push to `main`. No installation needed — just open the link above in any browser on your phone or computer.
+
+---
+
 An accessible, multilingual AI companion app designed to help elderly people in India discover and use Artificial Intelligence in their daily lives.
 
 ## 🌟 Features
@@ -31,7 +39,15 @@ An accessible, multilingual AI companion app designed to help elderly people in 
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### Option 1 — Access Online (recommended)
+
+Open the live app directly in your browser — no installation required:
+
+👉 **[https://hemu26.github.io/elderly-ai-adoption-app/](https://hemu26.github.io/elderly-ai-adoption-app/)**
+
+### Option 2 — Run Locally
+
+#### Prerequisites
 - Node.js 18+ and npm
 
 ### Installation

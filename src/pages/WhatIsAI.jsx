@@ -27,7 +27,7 @@ export default function WhatIsAI() {
         </section>
 
         <section className="card">
-          <h2 className="section-title">✅ {t('appName')} can help you:</h2>
+          <h2 className="section-title">{t('whatIsAI.canHelpYou', { appName: t('appName') })}</h2>
           <ul className="points-list">
             {Array.isArray(points) &&
               points.map((point, i) => (

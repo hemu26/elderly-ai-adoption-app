@@ -928,3 +928,511 @@
     font-size: 2.5rem;
   }
 }
+
+/* =========================================
+   Modern Robinhood — Styles
+   ========================================= */
+
+/* ---- Page hero subtitle ---- */
+.page-hero-subtitle {
+  font-size: var(--font-base);
+  margin-top: 0.4rem;
+  opacity: 0.92;
+}
+
+/* ---- Section heading ---- */
+.section-heading {
+  font-size: var(--font-lg);
+  font-weight: 700;
+  color: var(--text-primary);
+  padding: 1rem 1rem 0.25rem;
+}
+
+/* ---- Mission text ---- */
+.robinhood-mission {
+  font-size: var(--font-base);
+  line-height: 1.7;
+  color: var(--text-primary);
+}
+
+/* ---- Action buttons ---- */
+.robinhood-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem 1rem 0.25rem;
+}
+
+.robinhood-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 1.25rem 0.75rem;
+  border-radius: var(--radius);
+  color: white;
+  font-weight: 700;
+  font-size: var(--font-base);
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.18s, box-shadow 0.18s;
+  text-decoration: none;
+  min-height: 120px;
+}
+
+.robinhood-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.robinhood-btn > span:first-child {
+  font-size: 2.2rem;
+}
+
+.robinhood-btn > small {
+  font-size: 0.9rem;
+  font-weight: 400;
+  opacity: 0.88;
+}
+
+.robinhood-btn--seek {
+  background: linear-gradient(135deg, #1a73e8, #0d47a1);
+}
+
+.robinhood-btn--offer {
+  background: linear-gradient(135deg, #34a853, #1b5e20);
+}
+
+/* ---- How-it-works steps ---- */
+.robinhood-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  padding: 0 1rem 0.25rem;
+}
+
+.robinhood-step {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1rem 0.75rem;
+  text-align: center;
+}
+
+.robinhood-step-number {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--primary);
+  color: white;
+  font-weight: 700;
+  font-size: var(--font-base);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 0.4rem;
+}
+
+.robinhood-step-icon {
+  font-size: 1.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.robinhood-step-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: var(--text-primary);
+}
+
+.robinhood-step-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* ---- What-we-cover grid ---- */
+.robinhood-covers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  padding: 0 1rem 0.25rem;
+}
+
+.robinhood-cover-item {
+  text-align: center;
+  margin: 0;
+}
+
+.robinhood-cover-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.robinhood-cover-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: var(--text-primary);
+}
+
+.robinhood-cover-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* ---- Seek Help form ---- */
+.robinhood-form {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.robinhood-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.robinhood-label {
+  font-size: var(--font-base);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.required-star {
+  color: var(--danger);
+}
+
+.robinhood-input,
+.robinhood-textarea {
+  font-size: var(--font-base);
+  font-family: inherit;
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text-primary);
+  width: 100%;
+  transition: border-color 0.2s;
+}
+
+.robinhood-input:focus,
+.robinhood-textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.robinhood-input.input-error,
+.robinhood-textarea.input-error {
+  border-color: var(--danger);
+}
+
+.robinhood-textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+.robinhood-error {
+  font-size: 0.95rem;
+  color: var(--danger);
+  font-weight: 600;
+}
+
+.robinhood-hint {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.robinhood-category-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.robinhood-category-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.6rem 1rem;
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  font-size: var(--font-base);
+  cursor: pointer;
+  background: var(--surface);
+  color: var(--text-primary);
+  font-weight: 600;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.robinhood-category-btn.selected {
+  border-color: var(--primary);
+  background: #e8f0fe;
+  color: var(--primary);
+}
+
+.robinhood-submit-btn {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  background: var(--primary);
+  color: white;
+  font-size: var(--font-base);
+  font-weight: 700;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background 0.2s;
+  text-align: center;
+}
+
+.robinhood-submit-btn:hover {
+  background: var(--primary-dark);
+}
+
+/* ---- Success screen ---- */
+.robinhood-success {
+  margin: 2rem 1rem;
+  text-align: center;
+  padding: 2rem 1.25rem;
+}
+
+.robinhood-success-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.robinhood-success-note {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+/* ---- Case Card ---- */
+.case-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.25rem;
+  margin: 0 1rem 1rem;
+  border-left: 6px solid var(--case-color, var(--primary));
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.case-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.case-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.case-icon {
+  font-size: 1.8rem;
+}
+
+.case-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.case-category {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--case-color, var(--primary));
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.case-verified-badge {
+  font-size: 0.85rem;
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+.case-title {
+  font-size: var(--font-base);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+.case-desc {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.case-amount {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.case-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.case-date {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.case-help-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.55rem 1rem;
+  background: var(--secondary);
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.case-help-btn:hover {
+  background: #1b5e20;
+}
+
+/* ---- Offer Help filter bar ---- */
+.robinhood-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 1rem 1rem 0.25rem;
+}
+
+.robinhood-filter-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.5rem 0.9rem;
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.robinhood-filter-btn.active {
+  border-color: var(--primary);
+  background: #e8f0fe;
+  color: var(--primary);
+}
+
+.robinhood-cases-list {
+  padding-top: 0.5rem;
+}
+
+.robinhood-empty {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-secondary);
+  font-size: var(--font-base);
+}
+
+.robinhood-empty span {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* ---- Help modal ---- */
+.robinhood-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  padding: 1rem;
+}
+
+.robinhood-modal {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 1.75rem 1.5rem;
+  max-width: 480px;
+  width: 100%;
+  box-shadow: var(--shadow-lg);
+}
+
+.robinhood-modal-title {
+  font-size: var(--font-lg);
+  font-weight: 800;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+.robinhood-modal-case {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+  font-style: italic;
+}
+
+.robinhood-modal-steps {
+  margin: 0.75rem 0 0.75rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  color: var(--text-primary);
+  font-size: 1rem;
+}
+
+.robinhood-modal-contact {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: var(--font-base);
+  margin-top: 0.5rem;
+}
+
+/* ---- Responsive: stack on small screens ---- */
+@media (max-width: 600px) {
+  .robinhood-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .robinhood-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .robinhood-covers {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .robinhood-steps {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .robinhood-covers {
+    grid-template-columns: 1fr 1fr;
+  }
+}

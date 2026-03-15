@@ -38,6 +38,13 @@ const FEATURES = [
     descKey: 'newsWeatherDesc',
     color: '#904AE2',
   },
+  {
+    to: '/modern-robinhood',
+    icon: '⚖️',
+    key: 'modernRobinhood',
+    descKey: 'modernRobinhoodDesc',
+    color: '#1a73e8',
+  },
 ];
 
 export default function Home() {

@@ -1,0 +1,135 @@
+{
+  "appName": "AI Saathi",
+  "tagline": "Your friendly AI helper",
+  "selectLanguage": "Choose Your Language",
+  "home": "Home",
+  "back": "Back",
+  "features": {
+    "whatIsAI": "What is AI?",
+    "whatIsAIDesc": "Learn about Artificial Intelligence",
+    "voiceAssistant": "Voice Helper",
+    "voiceAssistantDesc": "Speak and get answers",
+    "chat": "Ask Questions",
+    "chatDesc": "Type your questions, get answers",
+    "healthTips": "Health Tips",
+    "healthTipsDesc": "Daily health advice & reminders",
+    "newsWeather": "News & Weather",
+    "newsWeatherDesc": "Stay updated with news and weather"
+  },
+  "whatIsAI": {
+    "title": "What is Artificial Intelligence (AI)?",
+    "intro": "AI is like a very smart helper that lives inside your phone or computer.",
+    "points": [
+      "It can understand what you say or type.",
+      "It can answer your questions like a knowledgeable friend.",
+      "It can help you with everyday tasks like sending messages.",
+      "It learns from millions of books and conversations.",
+      "It is safe, helpful, and always available."
+    ],
+    "examples": "Examples of AI in daily life:",
+    "exampleList": [
+      "Asking your phone for the weather",
+      "Getting health advice from a medical app",
+      "Translating text to your language",
+      "Reading news out loud for you"
+    ],
+    "tryIt": "Try it yourself below!"
+  },
+  "voice": {
+    "title": "Voice Helper",
+    "instruction": "Press the button and speak your question",
+    "listening": "Listening... speak now",
+    "processing": "Processing...",
+    "tryThese": "Try saying:",
+    "suggestions": [
+      "What is today's date?",
+      "Tell me a health tip",
+      "What is the weather like?",
+      "How do I stay healthy?"
+    ],
+    "notSupported": "Voice is not supported in your browser. Please try typing your question below.",
+    "startListening": "🎤 Press to Speak",
+    "stopListening": "🔴 Stop Listening",
+    "yourQuestion": "Your question:",
+    "aiResponse": "AI Response:"
+  },
+  "chat": {
+    "title": "Ask Questions",
+    "placeholder": "Type your question here...",
+    "send": "Send",
+    "clear": "Clear",
+    "thinking": "AI is thinking...",
+    "greeting": "Namaste! I am AI Saathi. How can I help you today?",
+    "suggestions": "Common questions:",
+    "suggestionList": [
+      "How to stay healthy?",
+      "What are good foods for seniors?",
+      "How to sleep better?",
+      "How to use a smartphone?",
+      "What is yoga good for?",
+      "Tell me about diabetes"
+    ]
+  },
+  "health": {
+    "title": "Daily Health Tips",
+    "todayTip": "Today's Health Tip",
+    "categories": {
+      "diet": "Food & Diet",
+      "exercise": "Exercise",
+      "sleep": "Sleep",
+      "mental": "Mind & Mood",
+      "medication": "Medicine Reminders"
+    },
+    "tips": {
+      "diet": [
+        "Drink 8 glasses of water every day",
+        "Eat fruits and vegetables with every meal",
+        "Reduce salt and sugar in your food",
+        "Have small meals 4-5 times a day",
+        "Include dals, beans and green leafy vegetables"
+      ],
+      "exercise": [
+        "Walk for 30 minutes every morning",
+        "Do light stretching after waking up",
+        "Yoga for 20 minutes helps joints stay flexible",
+        "Swimming is gentle on joints and good for heart",
+        "Simple chair exercises if you cannot walk much"
+      ],
+      "sleep": [
+        "Sleep 7-8 hours every night",
+        "Avoid tea or coffee after 5 PM",
+        "Keep your bedroom cool and dark",
+        "Avoid phone screen before bedtime",
+        "A warm glass of milk before bed helps"
+      ],
+      "mental": [
+        "Talk to family and friends every day",
+        "Read books, newspapers to keep mind active",
+        "Learn something new - even a small thing",
+        "Meditation for 10 minutes reduces stress",
+        "Play indoor games like chess or card games"
+      ]
+    },
+    "reminder": {
+      "title": "Medicine Reminder",
+      "morning": "Morning",
+      "afternoon": "Afternoon",
+      "evening": "Evening",
+      "night": "Night",
+      "addMedicine": "Add Medicine",
+      "medicineName": "Medicine name",
+      "setReminder": "Set Reminder"
+    }
+  },
+  "news": {
+    "title": "News & Weather",
+    "weather": "Weather",
+    "temperature": "Temperature",
+    "feelsLike": "Feels like",
+    "humidity": "Humidity",
+    "headlines": "Today's News Headlines",
+    "readMore": "Read more",
+    "lastUpdated": "Last updated",
+    "loading": "Loading..."
+  }
+}

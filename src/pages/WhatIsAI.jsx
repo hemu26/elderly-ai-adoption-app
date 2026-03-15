@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Header from '../components/Header.jsx';
+import { Link } from 'react-router-dom';
 
 const AI_EXAMPLES = [
   { icon: '📱', label: 'Asking phone for weather' },
@@ -55,9 +56,9 @@ export default function WhatIsAI() {
 
         <div className="cta-banner">
           <p className="cta-text">🚀 {t('whatIsAI.tryIt')}</p>
-          <a href="/voice-assistant" className="cta-btn">
+          <Link to="/voice-assistant" className="cta-btn">
             🎤 {t('features.voiceAssistant')}
-          </a>
+          </Link>
         </div>
       </main>
     </div>

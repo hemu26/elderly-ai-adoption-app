@@ -33,7 +33,13 @@ export default function SeekHelp() {
 
   function handleChange(e) {
     const { name, value } = e.target;
-    setForm((prev) => ({ ...prev, [name]: value }));
+    setForm((prev) => {
+      const next = { ...prev, [name]: value };
+      if (name === 'category' && value !== 'financial') {
+        next.amountNeeded = '';
+      }
+      return next;
+    });
     if (errors[name]) setErrors((prev) => ({ ...prev, [name]: undefined }));
   }
 

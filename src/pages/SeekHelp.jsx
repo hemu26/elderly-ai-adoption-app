@@ -121,7 +121,7 @@ export default function SeekHelp() {
         >
           {/* Category */}
           <div className="robinhood-field">
-            <label className="robinhood-label" htmlFor="category">
+            <label className="robinhood-label">
               {t('robinhood.labelCategory')} <span aria-hidden="true" className="required-star">*</span>
             </label>
             <div className="robinhood-category-group" role="group" aria-label={t('robinhood.labelCategory')}>

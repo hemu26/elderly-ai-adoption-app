@@ -14,7 +14,9 @@
     "healthTips": "স্বাস্থ্য টিপস",
     "healthTipsDesc": "দৈনিক স্বাস্থ্য পরামর্শ ও রিমাইন্ডার",
     "newsWeather": "সংবাদ ও আবহাওয়া",
-    "newsWeatherDesc": "সংবাদ ও আবহাওয়া সম্পর্কে আপডেট থাকুন"
+    "newsWeatherDesc": "সংবাদ ও আবহাওয়া সম্পর্কে আপডেট থাকুন",
+    "modernRobinhood": "মডার্ন রবিনহুড",
+    "modernRobinhoodDesc": "সাহায্যকারী ও সাহায্যপ্রার্থীদের সংযুক্ত করুন"
   },
   "whatIsAI": {
     "title": "কৃত্রিম বুদ্ধিমত্তা (AI) কী?",
@@ -131,5 +133,13 @@
     "readMore": "আরও পড়ুন",
     "lastUpdated": "শেষ আপডেট",
     "loading": "লোড হচ্ছে..."
+  },
+  "robinhood": {
+    "title": "মডার্ন রবিনহুড",
+    "subtitle": "সাহায্যকারী ও সাহায্যপ্রার্থীদের সংযুক্ত করে",
+    "catFinancial": "আর্থিক সাহায্য",
+    "catInjustice": "অন্যায় / আইনি",
+    "catCommunity": "সামাজিক সমস্যা",
+    "filterAll": "সব মামলা"
   }
 }

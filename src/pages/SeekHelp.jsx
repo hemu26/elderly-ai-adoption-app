@@ -51,8 +51,9 @@ export default function SeekHelp() {
       return;
     }
 
-    const categoryLabel = CATEGORIES.find((c) => c.value === form.category)?.labelKey
-      ? t(CATEGORIES.find((c) => c.value === form.category).labelKey)
+    const selectedCategory = CATEGORIES.find((c) => c.value === form.category);
+    const categoryLabel = selectedCategory?.labelKey
+      ? t(selectedCategory.labelKey)
       : form.category;
 
     const newCase = {
